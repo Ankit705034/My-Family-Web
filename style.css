@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+}
+nav {
+  background: #76d7c4;
+  color: #1b2631;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  cursor: pointer;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.profile-btn {
+  padding: 20px 40px;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+  background: 	#d98880;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+.profile-btn:hover {
+  background: #2980b9;
+}
+.profile-card {
+  display: none;
+  margin: 30px auto;
+  padding: 20px;
+  width: 300px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+}
+.profile-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.hidden {
+  display: none;
+}
+#gu{
+  background-color:  #0d7373;
+}
+body{
+  background-image: url('photos/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover
+}
+.gallery {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
